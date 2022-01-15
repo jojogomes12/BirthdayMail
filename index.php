@@ -28,11 +28,11 @@ $mail->SMTPDebug = 3;                               // Enable verbose debug outp
 $mail->isSMTP();                                            //Send using SMTP
 $mail->Host       = 'smtp.gmail.com';                     //Set the SMTP server to send through
 $mail->SMTPAuth   = true;                                   //Enable SMTP authentication
-$mail->Username   = 'joaoecarol39@gmail.com';                     //SMTP username
-$mail->Password   = 'pnhfhghyrhxrqrax';                               //SMTP password
+$mail->Username   = 'your email';                     //SMTP username
+$mail->Password   = 'your pass';                               //SMTP password
 $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;            //Enable implicit TLS encryption
 $mail->Port       = 465;                                    //TCP port to connect to; use 587 if you have set `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS`
-$mail->setFrom('joaoecarol39@gmail.com', 'João Pedro Gomes');
+$mail->setFrom('your email', 'João Pedro Gomes');
           
 
 $mail->isHTML(true);                                  // Set email format to HTML
